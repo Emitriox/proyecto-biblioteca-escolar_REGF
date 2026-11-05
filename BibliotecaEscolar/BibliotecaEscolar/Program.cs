@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace BibliotecaEscolar
 {
+    // =========================================================================
+    // DÍA 2: Modelo de Clases y Carga de Datos de Prueba
+    // =========================================================================
     // Clase que representa un ejemplar individual de un libro
     public class Ejemplar
     {
@@ -72,7 +75,7 @@ namespace BibliotecaEscolar
             CargarDatosPrueba();
         }
 
-        // Requisito: Cargar al menos 8 títulos con sus ejemplares irregulares y préstamos históricos[cite: 1]
+        // DÍA 2: Carga de al menos 8 títulos con sus ejemplares irregulares y préstamos históricos
         private void CargarDatosPrueba()
         {
             catalogo.Add(new Titulo("978-968-16-0158-7", "Pedro Páramo", "Juan Rulfo", 12, 3));
@@ -87,7 +90,11 @@ namespace BibliotecaEscolar
 
         public List<Titulo> ObtenerCatalogo() => catalogo;
 
-        // Requisito: Ordenamiento por inserción manual (Descendente por Préstamos, Estable alfabéticamente en empate)[cite: 1]
+        // =========================================================================
+        // DÍA 4: Implementación Manual del Ordenamiento por Inserción
+        // =========================================================================
+        // Restricción: No se admite Array.Sort ni List<T>.Sort[cite: 2].
+        // Preserva el orden alfabético en caso de empate en préstamos históricos.
         public void OrdenarPorInsercionPrestamos()
         {
             int n = catalogo.Count;
@@ -110,7 +117,7 @@ namespace BibliotecaEscolar
             }
         }
 
-        // Ordenamiento auxiliar por ISBN para la búsqueda binaria
+        // DÍA 7: Ordenamiento auxiliar por ISBN para la búsqueda binaria y verificación
         public List<Titulo> ObtenerCopiaOrdenadaPorIsbn(out List<Titulo> copia)
         {
             copia = new List<Titulo>(catalogo);
@@ -129,7 +136,9 @@ namespace BibliotecaEscolar
             return copia;
         }
 
-        // Requisito: Búsqueda binaria propia por ISBN[cite: 1]
+        // =========================================================================
+        // DÍA 5: Implementación de la Búsqueda Binaria Propia por ISBN
+        // =========================================================================
         public Titulo BuscarBinarioPorIsbn(List<Titulo> listaOrdenada, string isbnBusqueda, out int comparaciones)
         {
             comparaciones = 0;
@@ -158,7 +167,9 @@ namespace BibliotecaEscolar
             return null; // No encontrado
         }
 
-        // Requisito: Registrar un préstamo que reduzca la disponibilidad y actualice el contador histórico[cite: 1]
+        // =========================================================================
+        // DÍA 3: Cálculo de Disponibilidad y Registro de Préstamos
+        // =========================================================================
         public bool RegistrarPrestamo(string isbn)
         {
             Titulo titulo = catalogo.Find(t => t.Isbn == isbn);
@@ -192,7 +203,9 @@ namespace BibliotecaEscolar
             }
         }
     }
-
+    // =========================================================================
+    // DÍAS 6 y 7: Integración, Pruebas de Escritorio y Ejecución Principal
+    // =========================================================================
     class Program
     {
         static void Main(string[] args)
@@ -208,7 +221,7 @@ namespace BibliotecaEscolar
             Console.WriteLine("\n=== CATÁLOGO ORDENADO POR PRÉSTAMOS (Mayor a Menor) ===");
             biblio.MostrarCatalogo();
 
-            Console.WriteLine("\n=== SIMULACIÓN DE 3 PRÉSTAMOS (Día 3 y 6) ===");
+            Console.WriteLine("\n=== SIMULACIÓN DE 3 PRÉSTAMOS ===");
             biblio.RegistrarPrestamo("978-843-76-0494-7"); // Cien años de soledad
             biblio.RegistrarPrestamo("978-950-07-2051-9"); // El túnel (ejemplar único)
             biblio.RegistrarPrestamo("978-950-07-2051-9"); // Segundo intento en El túnel (Debe fallar por no haber copias)

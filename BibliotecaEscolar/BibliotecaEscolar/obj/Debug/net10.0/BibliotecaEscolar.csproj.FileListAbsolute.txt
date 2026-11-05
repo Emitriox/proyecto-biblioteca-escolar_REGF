@@ -1,0 +1,16 @@
+C:\Users\rubem\OneDrive\Desktop\UACyTI\Estructura de datos\BibliotecaEscolar\BibliotecaEscolar\bin\Debug\net10.0\BibliotecaEscolar.exe
+C:\Users\rubem\OneDrive\Desktop\UACyTI\Estructura de datos\BibliotecaEscolar\BibliotecaEscolar\bin\Debug\net10.0\BibliotecaEscolar.deps.json
+C:\Users\rubem\OneDrive\Desktop\UACyTI\Estructura de datos\BibliotecaEscolar\BibliotecaEscolar\bin\Debug\net10.0\BibliotecaEscolar.runtimeconfig.json
+C:\Users\rubem\OneDrive\Desktop\UACyTI\Estructura de datos\BibliotecaEscolar\BibliotecaEscolar\bin\Debug\net10.0\BibliotecaEscolar.runtimeconfig.dev.json
+C:\Users\rubem\OneDrive\Desktop\UACyTI\Estructura de datos\BibliotecaEscolar\BibliotecaEscolar\bin\Debug\net10.0\BibliotecaEscolar.dll
+C:\Users\rubem\OneDrive\Desktop\UACyTI\Estructura de datos\BibliotecaEscolar\BibliotecaEscolar\bin\Debug\net10.0\BibliotecaEscolar.pdb
+C:\Users\rubem\OneDrive\Desktop\UACyTI\Estructura de datos\BibliotecaEscolar\BibliotecaEscolar\obj\Debug\net10.0\BibliotecaEscolar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rubem\OneDrive\Desktop\UACyTI\Estructura de datos\BibliotecaEscolar\BibliotecaEscolar\obj\Debug\net10.0\BibliotecaEscolar.AssemblyInfoInputs.cache
+C:\Users\rubem\OneDrive\Desktop\UACyTI\Estructura de datos\BibliotecaEscolar\BibliotecaEscolar\obj\Debug\net10.0\BibliotecaEscolar.AssemblyInfo.cs
+C:\Users\rubem\OneDrive\Desktop\UACyTI\Estructura de datos\BibliotecaEscolar\BibliotecaEscolar\obj\Debug\net10.0\BibliotecaEscolar.csproj.CoreCompileInputs.cache
+C:\Users\rubem\OneDrive\Desktop\UACyTI\Estructura de datos\BibliotecaEscolar\BibliotecaEscolar\obj\Debug\net10.0\BibliotecaEscolar.dll
+C:\Users\rubem\OneDrive\Desktop\UACyTI\Estructura de datos\BibliotecaEscolar\BibliotecaEscolar\obj\Debug\net10.0\refint\BibliotecaEscolar.dll
+C:\Users\rubem\OneDrive\Desktop\UACyTI\Estructura de datos\BibliotecaEscolar\BibliotecaEscolar\obj\Debug\net10.0\BibliotecaEscolar.pdb
+C:\Users\rubem\OneDrive\Desktop\UACyTI\Estructura de datos\BibliotecaEscolar\BibliotecaEscolar\obj\Debug\net10.0\BibliotecaEscolar.genruntimeconfig.cache
+C:\Users\rubem\OneDrive\Desktop\UACyTI\Estructura de datos\BibliotecaEscolar\BibliotecaEscolar\obj\Debug\net10.0\ref\BibliotecaEscolar.dll
+C:\Users\rubem\OneDrive\Desktop\UACyTI\Estructura de datos\BibliotecaEscolar\BibliotecaEscolar\obj\Debug\net10.0\Bibliote.AE4F9113.Up2Date
